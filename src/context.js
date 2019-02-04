@@ -96,7 +96,6 @@ class ProductProvider extends Component {
             this.setState(()=>{return {cart:[...tempCart]}}, ()=>{this.addTotals()});
         }
 
-        
     }
     removeItem = id =>{
         let tempProducts = [...this.state.products];
