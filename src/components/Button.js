@@ -2,8 +2,7 @@ import styled from 'styled-components'
 
 export const ButtonContainer = styled.button`
 text-Transform:capitalize;
-font-size:1.4rem;
-font-family: 'Teko';
+font-size:1.2rem;
 background: transparent;
 border:0.05rem solid var(l--lightBlue);
 border-color:${props => (props.cart ? "var(--mainYellow)" : "var(--lightBlue)")};

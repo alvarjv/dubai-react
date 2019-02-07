@@ -16,11 +16,11 @@ export default class Product extends Component {
               <Link to="/details">
                 <img src={img} alt="product" className="card-img-top"></img>
               </Link>
-              <button className="cart-btn" disabled={inCart ? true : false} onClick={() => {
+              <button className="cart-btn1" disabled={inCart ? true : false} onClick={() => {
                 value.addToCart(id);
                 value.openModal(id);
                 } }>
-                {inCart ? (<p className="text-capitalize mb-0" disabled>{" "} in cart</p>) : (<i className="fas fa-cart-plus"></i>)}
+                {inCart ? (<p className="text-capitalize mb-0" disabled>{" "} Listo!</p>) : (<i className="fas fa-cart-plus"></i>)}
               </button>
             </div>)}
           </ProductConsumer>
@@ -81,7 +81,7 @@ const ProductWrapper = styled.div`
 .img-container:hover .card-img-top{
   transform: scale(1.2);
 }
-.cart-btn {
+.cart-btn1 {
   position: absolute;
   bottom: 0;
   right: 0;

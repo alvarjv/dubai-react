@@ -23,20 +23,20 @@ export default class Details extends Component {
                   <img src={img} className="img-fluid" alt="product"></img>
                 </div>
                 <div className="col-10 mx-auto col-md-6 my-3 text-capitalize">
-                  <h2>model: {title}</h2>
+                  <h2>servicio: {title}</h2>
                   <h4 className="text-title text-uppercase text-muted">
-                    made by : <span className="text-uppercase">{company}</span>
+                    lugar: <span className="text-uppercase">{company}</span>
                   </h4>
                   <h4 className="text-blue">
-                    <strong>price : <span>$</span></strong>{price}
+                    <strong>precio : <span>$</span></strong>{price}
                   </h4>
-                  <p className="">Some info about product :</p>
+                  <p className="">Información acerca de nuestro servicio :</p>
                   <p className="text-muted lead">{info}</p>
                   {/*button*/}
                   <div>
-                    <Link to="/">
+                    <Link to="/servicios">
                       <ButtonContainer> 
-                        back to products
+                        Cancelar
                       </ButtonContainer>
                     </Link>
                     <ButtonContainer cart disabled={inCart ? true : false}
@@ -44,7 +44,7 @@ export default class Details extends Component {
                         value.addToCart(id);
                         value.openModal(id);
                       }}>
-                      {inCart ? "inCart" : "add to cart"}
+                      {inCart ? "inCart" : "Seleccionar"}
                     </ButtonContainer>
                   </div>
                 </div>
