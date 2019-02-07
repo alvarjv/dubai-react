@@ -14,7 +14,7 @@ export default class Inicio extends Component {
               <div> 
                 <h1>Salones de Fiestas</h1>
                 <p> <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </b></p>
-                <button className="button button4"><b>Nosotros ...</b></button>
+                <Link to='/'><button className="button button4"><b>Nosotros ...</b></button></Link>
               </div>
             </div>
           </div>
@@ -64,7 +64,7 @@ export default class Inicio extends Component {
             </div>
             <div className="row" align="center">
               <div className="offset-sm-2 col-sm-8">
-                <button className="button button5"><b>Portafolio ...</b></button>
+              <Link to='/servicios'><button className="button button5"><b>Portafolio ...</b></button></Link>
                 </div>
               </div>
           </div>
@@ -124,7 +124,7 @@ export default class Inicio extends Component {
             </div>
             <div className="row" align="center">
               <div className="offset-sm-2 col-sm-8">
-                <button className="button button5"><b>Presupuestar ...</b></button>
+              <Link to='/presupuesto'><button className="button button5"><b>Presupuestar ...</b></button></Link>
                 </div>
               </div>
           </div>
