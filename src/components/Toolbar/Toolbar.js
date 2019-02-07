@@ -29,7 +29,7 @@ const toolbar = props => (
           <Link to='/'>Contacto</Link>
           </li>
           <li>
-        <Link to='/cart' className="ml-auto">
+        <Link to='/presupuesto' className="ml-auto">
                 <ButtonContainer>
                     <span className="mr-2">
                     <i className="fas fa-cart-plus" /> 

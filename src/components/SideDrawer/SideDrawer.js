@@ -25,7 +25,7 @@ return (
             </Link>
           </li>
           <li>
-          <Link to='/' className="ml-auto">
+          <Link to='/servicios' className="ml-auto">
         <button className="cart-btn"> Servicios </button>
             </Link>
           </li>
@@ -35,7 +35,7 @@ return (
             </Link>
           </li>
           <li>
-        <Link to='/cart' className="ml-auto">
+        <Link to='/presupuesto' className="ml-auto">
         <button className="cart-btn"> Presupuesto </button>
             </Link>
             </li>

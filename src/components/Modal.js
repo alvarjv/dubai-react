@@ -21,7 +21,7 @@ export default class Modal extends Component {
                                 <div className="container">
                                     <div className="row">
                                         <div id="modal" className="col-8 mx-auto col-md-6 col-lg-4 text-center text-capitalize p5">
-                                            <h5>item added to the cart</h5>
+                                            <h5>item agregado al presupuesto</h5>
                                             <img src={img} className="img-fluid" alt="product"></img>
                                             <h5>{title}</h5>
                                             <h5 className="text-muted">price : $ {price}</h5>
@@ -30,7 +30,7 @@ export default class Modal extends Component {
                                                     agregar
                                                 </ButtonContainer>
                                             </Link>
-                                            <Link to='/cart'>
+                                            <Link to='/presupuesto'>
                                                 <ButtonContainer cart onClick={() => closeModal()}>
                                                     tu presupuesto
                                                 </ButtonContainer>
